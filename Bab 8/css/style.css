@@ -1,0 +1,497 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    width: 100%;
+    height: 750px;
+    background-color: #dddddd;
+}
+header {
+    position: fixed;
+    width: 100%;
+    z-index: 10000;
+    padding: 20px;
+}
+.container{
+    width: 80%;
+    margin: 0 auto;
+    background-color: rgba(0, 0, 0, 0); 
+    color: white;
+    transition: background-color 0.3s ease;
+}
+.navbar-bg .logo{
+    color: #7b038b;
+}
+.navbar-bg {
+    backdrop-filter: blur(10px);
+    background-color: rgba(255, 255, 255, 0.5); 
+}
+.logo{
+    font-size: 50px;
+    display: inline-block;
+}
+
+header h1 {
+    color: #fff; /* Warna teks judul */
+}
+.login{
+    color: #000;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-left: 15px;
+    padding: 10px;
+    font-weight: bold;
+    background-color: #fff;
+}
+nav{
+    margin-top: 15px;
+    float: right;
+    display: flex;
+}
+nav ul {
+    list-style-type: none;
+    margin: 10px 0;
+}
+nav ul .sub a{
+    padding: 10px;
+    background-color: #7b038b;
+    color: #fff;
+}
+nav ul li {
+    margin: 0px -2px;
+    display: inline;
+}
+
+nav ul li a {
+    padding: 10px;
+    background-color: #fff;
+    font-size: 17px;
+    text-decoration: none;
+    color: #000; /* Warna teks tautan */
+    font-weight: bold;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+nav ul .tu a{
+    border-radius: 5px 0 0 5px;
+}
+nav ul .wa a{
+    border-radius: 0 5px 5px 0;
+}
+nav ul :hover,
+nav :hover {
+    color: #fff;
+    background-color: #313131;
+}
+/* conten section */
+.satu{
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    background-image: url('../assets/bg atas.jpg');
+    background-size: cover;
+    background-position: center;
+}
+.satu1{
+    color: #fff;
+    display: block;
+    margin: 0px 0px 0px 0px;
+    justify-content: center;
+    text-align: center;
+}
+.satu1 h2{
+    margin-top: 300px;
+    margin-bottom: 10px;
+    font-size: 70px;
+    font-family: Raleway, sans-serif;
+    font-weight: normal;
+}
+.satu1 p{
+    margin-top: 10px;
+    font-family: Raleway, sans-serif;
+    color: #fff;
+    font-size: 30px;
+    text-align: center;
+}
+.dalem{
+    background-color: #fff;
+    width: 80%;
+    margin: 0 auto;
+    border-radius: 20px 20px 0 0 ;
+    margin-top: 100px;
+}
+/* gambar 1 */
+.ikon{
+    display: block;
+    margin-top: 0px;
+    width: 60px;
+    height: 60px;
+    padding: 20px;
+    background-color: rgb(56, 42, 64, 0.6);
+    border-radius: 100%;
+}
+.dua .gmr{
+    left: 30%;
+    margin-top: 100px;
+    width: 500px;
+    height: 200px;
+    border:1px #000 solid;
+}
+.dua{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 180px;
+}
+.isi .judul4{
+    text-align: center;
+    font-family: Poppins;
+    font-size: 25px;
+    margin-top: 10px;
+}
+.isi p{
+    margin-top: 20px;
+    font-family: Raleway, sans-serif;
+    color: #545454;
+    font-size: 20px;
+    text-align: center;
+}
+.tombol{
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    height: 100px;
+    margin-bottom: 70px;
+}
+button{
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    background-color: #4ec64c;
+    padding: 10px 25px;
+}
+.tombol :hover{
+    cursor: pointer;
+    background-color: #ff0000;
+}
+
+
+/* gambar 2 */
+.ikon2{
+    margin-top: -50px;
+    width: 60px;
+    height: 60px;
+    padding: 20px;
+    background-color: rgb(200, 150, 73, 0.6);
+    border-radius: 100%;
+}
+.satu4{
+    background-color: #e6e6e6;
+    text-align: center;
+    height: 550px;
+}
+.judul2{
+    text-align: center;
+    font-family: Poppins;
+    font-size: 25px;
+    margin: 100px 0px 40px;
+}
+.satu4 .lima{
+    margin-top: 0px;
+}
+.satu4 .lima img{
+    margin: -90px 0;
+    float: right;
+    width: 400px;
+    height: 400px;
+}
+.satu4 p{
+    display: inline-block;
+}
+
+/* gambar 3 */
+.ikon3{
+    margin-top: 30px;
+    left: 46%;
+    width: 60px;
+    height: 60px;
+    padding: 20px;
+    background-color: rgb(255, 102, 196, 0.6);
+    border-radius: 100%;
+}
+.satu5{
+    text-align: center;
+    background-color: #3a3668;
+    height: 950px;
+}
+.judul3{
+    color: #fff;
+    display: block;
+    font-family: Poppins;
+    font-size: 40px;
+    margin: 0px 0px 40px;
+}
+.satu5 .nam{
+    color: #fff;
+    text-align: center;
+    margin-top: 20px;
+    float: left;
+}
+.satu5 p{
+    margin: 0px 50px;
+}
+.satu5 ul{
+    margin-bottom: 50px;
+}
+.satu5 ul li{
+    display: flex;
+    text-align: left;
+    margin-bottom: 50px;
+}
+.satu5 ul li img{
+    margin-right: 20px;
+    width: 50px;
+    height: 50px;
+    border: 1px #fff solid;
+    border-radius: 100%;
+}
+.satu5 ul li p{
+    margin: 0;
+}
+.two-columns {
+    width: 100%;
+    margin: 0 7%;
+    list-style: none;
+    column-count: 2; 
+    column-gap: 100px;
+    column-rule: 1px solid #ccc;
+}
+
+/* corousel */
+.carousel-container {
+    position: relative;
+    margin: 0 22%;
+    width: 600px;
+    overflow: hidden;
+}
+
+.carousel-slide {
+    display: flex;
+    transition: transform 0.5s ease; /* Animasi transisi dengan durasi 0.5 detik dan efek ease */
+}
+
+.carousel-slide img {
+    border-radius: 10px;
+    width: 100%;
+    height: auto;
+  }
+  
+  .carousel-dots {
+    text-align: center;
+    margin-top: 10px;
+  }
+  
+  .carousel-dot {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #ccc;
+    margin: 0 5px;
+    cursor: pointer;
+  }
+  
+  .carousel-dot.active {
+    background-color: #333;
+  }
+  
+/* footer */
+.bawah{
+    font-family: sans-serif;
+    background-color: #2d3e5f;
+    margin-bottom: 0px;
+    margin-top: 32px;
+}
+table{
+    padding-top: 20px;
+    margin: 0 5%;
+    color: #fff;
+    text-align: left;
+    display: block;
+}
+th,td{
+    padding: 0 60px 10px 60px;
+}
+.garis2{
+
+    background-color: #fff;
+    border-radius: 50px;
+    width: 80%;
+    height: 2px;
+    margin: 20px 10% ;
+}
+.garis{
+    margin: 0 10%;
+    padding: 0px 0px 20px;
+    color: #fff;
+    display: block;
+    text-align: left;
+}
+.bawah div p{
+    font-size: 15px;
+}
+/* CSS dasar Anda tetap sama */
+.menu-icon,
+input[type="checkbox"]{
+    display: none;
+}
+.bawah .container{
+    display: none;
+}
+/* Styling popup */
+.popup {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.5);
+    z-index: 9999;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .popup-content {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+  }
+  
+  .close {
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    font-size: 20px;
+    cursor: pointer;
+  }
+  
+  .input-container {
+    margin-bottom: 10px;
+  }
+  
+  .input-container label {
+    display: block;
+  }
+  
+  .input-container input {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  button[type="submit"] {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+
+.popup-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.3);
+}
+
+@media screen and (max-width: 768px) {
+    .container {
+        width: 100%;
+    }
+    .logo {
+        font-size: 30px;
+    }
+    header nav {
+        display: none;
+        position: absolute;
+        top: 70px;
+        left: 0;
+        width: 100%;
+        background-color: #fff;
+        z-index: 1;
+    }
+    header nav ul {
+        text-align: center;
+    }
+    header nav ul li {
+        display: block;
+    }
+    .menu-icon {
+        margin-right: 40px;
+        display: block;
+        float: right;
+        cursor: pointer;
+        font-size: 30px;
+        margin-top: -10px;
+    }
+    .menu-toggle {
+        display: none;
+    }
+    #menu-toggle:checked ~ nav {
+        display: block;
+    }
+    .satu1 h2{
+        font-size: 35px;
+        font-weight: bold;
+    }
+    .satu1 p{
+        font-size: 20px;
+    }
+    .satu4{
+        height: 700px;
+    }
+    .satu4 .lima img{
+        width: 300px;
+        height: 300px;
+        margin: 0 40px;
+        margin-top: 20px;
+    }
+    .judul2{
+        text-align: center;
+        font-size: 25px;
+        display: inline-block;
+        margin-top: 10px;
+    }
+    .satu5{
+        height: 1250px;
+    }
+    .judul3{
+        font-size: 20px;
+    }
+    .dalem{
+        width: 100%;
+    }
+
+    .two-columns {
+        column-count: 1; 
+    }
+    .bawah .table{
+        display: none;
+    }
+    .carousel-container {
+        margin: 0 12%;
+        width: 300px;
+    }
+      
+}
